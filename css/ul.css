@@ -1,0 +1,60 @@
+@charset "UTF-8"; 
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0em;
+    padding-left: 1em;
+}
+ul li.folder:before {
+    content: "\f07b";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}
+ul li.file:before {
+    content: "\f15b";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}
+ul li span {
+	padding-left: 0.25em;
+}
+
+ul li.folder-o:before {
+    content: "\f114";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}
+ul li.file-o:before {
+    content: "\f016";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}
+
+ul li.folder-s:before {
+    content: "\f114";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}
+ul li.folder-s:hover:before {
+    content: "\f07b";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}
+ul li.file-s:before {
+    content: "\f016";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}
+ul li.file-s:hover:before {
+    content: "\f15b";
+	font-family: FontAwesome;
+	margin-left:-1em;
+    vertical-align:middle;
+}

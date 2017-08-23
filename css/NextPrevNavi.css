@@ -1,0 +1,29 @@
+html body head {
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    margin: 0px;
+    padding: 0px;
+}
+/*
+#NextPrevNavi{
+    display:-webkit-flex;
+    -webkit-flex-direction:row;
+    -webkit-flex-wrap:nowrap;
+    -webkit-justify-content:flex-start;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}*/
+#NextPrevNavi
+{
+    display:-webkit-flex;
+    -webkit-flex-flow:row nowrap;
+    -webkit-justify-content:space-between;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+i.fa-angle-left { margin-right: 8px;}
+i.fa-angle-right { margin-left: 8px;}

@@ -1,0 +1,8 @@
+#HeaderNavi {
+    display:-webkit-flex;
+    -webkit-flex-flow:row nowrap;
+    -webkit-justify-content:space-between;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}

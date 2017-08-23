@@ -1,0 +1,11 @@
+#Breadcrumbs{
+    display:-webkit-flex;
+    -webkit-flex-direction:row;
+    -webkit-flex-wrap:nowrap;
+    -webkit-justify-content:flex-start;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+#Breadcrumbs i.fa-angle-left { margin-left: 4px; margin-right: 4px;}
+#Breadcrumbs i.fa-angle-right { margin-left: 4px; margin-right: 4px;}
